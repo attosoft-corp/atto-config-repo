@@ -1,10 +1,23 @@
 info:
   description: Default Description
   url: https://github.com/attosoft-corp/atto-config-server
-  
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka:8761/eureka/
+      defaultZone: http://eureka-server:8761/eureka/
       shouldFetchRegistry: false
       ValidateCertificates: false
+
+cloud:
+  config: 
+    uri": http://config-server:8888
+    validate_certifates": false
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
