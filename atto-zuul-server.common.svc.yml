@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: atto-zuul-server.common.svc
+
+server:
+  port: 8080
+
+zuul:
+  prefix: /api/attosoft-corp
+  routes:
+    hello-service:
+      path: /server/**
+      serviceId: ATTO-HELLO-SERVICE.BUSINNES.SVC
+    hello-client:
+      path: /client/**
+      serviceId: ATTO-HELLO-CLIENT.BUSINNES.SVC
