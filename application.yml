@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: atto-default-app-name
+
 info:
   description: Default Description
   url: https://github.com/attosoft-corp
