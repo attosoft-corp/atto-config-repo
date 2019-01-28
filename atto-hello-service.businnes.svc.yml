@@ -1,0 +1,6 @@
+info:
+  description: Hello-Service this message comes from config-server in hello-service file
+
+spring:
+  application:
+    name: atto-hello-service.businnes.svc

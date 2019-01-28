@@ -10,7 +10,7 @@ zuul:
   routes:
     hello-service:
       path: /server/**
-      serviceId: ATTO-HELLO-SERVICE.BUSINNES.SVC
+      serviceId: atto-hello-service.businnes.svc
     hello-client:
       path: /client/**
-      serviceId: ATTO-HELLO-CLIENT.BUSINNES.SVC
+      serviceId: atto-hello-client.businnes.svc

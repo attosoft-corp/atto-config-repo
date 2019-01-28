@@ -1,6 +1,5 @@
----
 info:
-  description: Hello-Service from joke teste
+  description: Hello-Client this message comes from config-server in hello-client file
 
 spring:
   application:
