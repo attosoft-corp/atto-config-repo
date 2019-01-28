@@ -1,3 +1,12 @@
 info:
   description: Atto Hello Service 
   url: https://atto-soft-corp/hello-service
+
+spring:
+  application:
+    name: atto-hello-client.businnes.svc
+
+hystrix:
+  command:
+    JokeCommand:
+      threadPoolKeyOverride: JokeServiceTPool
