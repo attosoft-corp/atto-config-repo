@@ -1,3 +1,14 @@
-
-
-
+spring:
+  application:
+    name: atto-default.svc
+  cloud:
+    config:
+      uri: http://atto-config-server.common.svc:8080
+      validate_certifates: false
+eureka:
+  client:
+    serviceUrl: http://atto-eureka-server.common.svc:8080/eureka/
+    shouldFetchRegistry: false
+    ValidateCertificates: false
+  instance:
+    port: 8080
