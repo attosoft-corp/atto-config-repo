@@ -10,3 +10,6 @@ hystrix:
   command:
     JokeCommand:
       threadPoolKeyOverride: JokeServiceTPool
+
+server:
+  port: 8080
