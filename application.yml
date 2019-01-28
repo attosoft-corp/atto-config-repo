@@ -1,3 +1,18 @@
+info:
+  description: Default Description
+  url: https://github.com/attosoft-corp
 
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://atto-eureka-server.common.svc:8080/eureka/
+      shouldFetchRegistry: false
+      ValidateCertificates: false
+  instance:
+    hostname: atto-eureka-server.common.svc
+    
+cloud:
+  config: 
+    uri": "http://atto-config-server.common.svc:8080"
+    validate_certifates": false
 
