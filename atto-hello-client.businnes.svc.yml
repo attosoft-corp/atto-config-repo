@@ -1,7 +1,3 @@
 spring:
   application:
     name: atto-hello-client.businnes.svc
-
-eureka:
-  client:
-    serviceUrl: http://atto-eureka-server.common.svc:8080/eureka/
