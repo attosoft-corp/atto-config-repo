@@ -1,4 +1,14 @@
 ---
+info:
+  description: Hello-Service from joke
+
 spring:
   application:
     name: atto-hello-client.businnes.svc
+
+hystrix:
+  stream:
+    validate_certificates: false
+  command:
+    JokeCommand:
+      threadPoolKeyOverride: JokeServiceTPool
