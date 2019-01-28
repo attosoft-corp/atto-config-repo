@@ -1,6 +1,6 @@
 ---
 info:
-  description: Hello-Service from joke
+  description: Hello-Service from joke teste
 
 spring:
   application:
