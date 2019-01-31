@@ -8,6 +8,7 @@ spring:
 eureka:
   client:
     serviceUrl: http://atto-eureka-server.common.svc:8080/eureka/
+    shouldFetchRegistry: false
     shouldRegisterWithEureka: false
     ValidateCertificates: false
   instance:
