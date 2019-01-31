@@ -1,8 +1,8 @@
 eureka:
   client:
     serviceUrl: http://atto-eureka-server.common.svc:8080/eureka/
-    #shouldRegisterWithEureka: false
-    shouldFetchRegistry: false
+    shouldRegisterWithEureka: true
+    shouldFetchRegistry: true
     ValidateCertificates: false
   instance:
     port: 8080
