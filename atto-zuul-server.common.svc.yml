@@ -2,6 +2,11 @@ spring:
   application:
     name: atto-zuul-server.common.svc
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://atto-eureka-server.common.svc:8080/eureka/
+
 server:
   port: 8080
 
