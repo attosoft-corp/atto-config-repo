@@ -6,3 +6,9 @@ eureka:
     ValidateCertificates: false
   instance:
     port: 8080
+
+Logging:
+  LogLevel:
+    Default: Debug
+    System: Information
+    Microsoft: Information
