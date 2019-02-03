@@ -15,7 +15,7 @@ zuul:
   routes:
     hello-service:
       path: /server/**
-      serviceId: atto-hello-service.businnes.svc
+      uri: http://atto-hello-service:8080/
     hello-client:
       path: /client/**
-      serviceId: atto-hello-client.businnes.svc
+      uri: http://atto-hello-client:8080/
