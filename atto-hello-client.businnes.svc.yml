@@ -11,3 +11,6 @@ hystrix:
   command:
     JokeCommand:
       threadPoolKeyOverride: JokeServiceTPool
+
+atto-joke-config:
+  Url: http://atto-hello-service.businnes.svc:8080/
