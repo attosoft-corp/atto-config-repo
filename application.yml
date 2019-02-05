@@ -4,7 +4,7 @@ eureka:
     shouldRegisterWithEureka: true
     shouldFetchRegistry: true
     ValidateCertificates: false
-    preferIpAddress: true
+    preferIpAddress: false
     
   instance:
     port: 8080
