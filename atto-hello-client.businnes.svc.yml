@@ -1,5 +1,16 @@
 info:
   description: Hello-Client this message comes from config-server in hello-client file
+  exchange: exchangeSend
+  queue: MinhaQueueQualquer
+
+RawRabbit:
+  VirtualHost: "/"
+  Hostnames:
+  - localhost
+  Port: 5672
+  Username: guest
+  Password: guest
+  RequestTimeout: '00:01:00'
 
 spring:
   application:

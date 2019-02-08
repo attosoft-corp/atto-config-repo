@@ -1,5 +1,18 @@
 info:
   description: Hello-Service this message comes from config-server in hello-service file
+  exchangeSend: exchangeSend
+  queueSend: queueSend
+  exchangeGet: exchangeGe
+  queueGet": queueGet
+
+RawRabbit:
+  VirtualHost: "/"
+  Hostnames:
+  - openshift-rabbitmq.common.svc
+  Port: 5672
+  Username: guest
+  Password: guest
+  RequestTimeout: '00:01:00'
 
 spring:
   application:
