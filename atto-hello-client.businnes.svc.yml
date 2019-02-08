@@ -1,7 +1,7 @@
 info:
   description: Hello-Client this message comes from config-server in hello-client file
-  exchange: exchangeSend
-  queue: MinhaQueueQualquer
+  exchange: CRM.CustomerService.GetCustomer[CPF]
+  queue: MetodoQueInvoca_0_SubQueue_e_retorna_o_Customer
 
 RawRabbit:
   VirtualHost: "/"

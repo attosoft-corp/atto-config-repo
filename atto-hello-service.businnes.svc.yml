@@ -1,9 +1,9 @@
 info:
   description: Hello-Service this message comes from config-server in hello-service file
-  exchangeSend: exchangeSend
-  queueSend: queueSend
-  exchangeGet: exchangeGe
-  queueGet: queueGet
+  exchangeSend: CRM.CustomerService.GetCustomer[CPF]
+  queueSend: CRM.CustomerService.GetCustomer[CPF]
+  exchangeGet: GECAD.CustomerService.GetCustomer[CPF]
+  queueGet: GECAD.CustomerService.GetCustomer[CPF]
 
 RawRabbit:
   VirtualHost: "/"
