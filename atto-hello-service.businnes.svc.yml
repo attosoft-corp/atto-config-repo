@@ -3,7 +3,7 @@ info:
   exchangeSend: exchangeSend
   queueSend: queueSend
   exchangeGet: exchangeGe
-  queueGet": queueGet
+  queueGet: queueGet
 
 RawRabbit:
   VirtualHost: "/"
