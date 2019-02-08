@@ -6,7 +6,7 @@ info:
 RawRabbit:
   VirtualHost: "/"
   Hostnames:
-  - localhost
+  - openshift-rabbitmq.common.svc
   Port: 5672
   Username: guest
   Password: guest
