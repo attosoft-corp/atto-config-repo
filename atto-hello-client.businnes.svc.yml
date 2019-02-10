@@ -24,4 +24,4 @@ hystrix:
       threadPoolKeyOverride: JokeServiceTPool
 
 atto-joke-config:
-  Url: http://atto-hello-service:8080/
+  Url: http://ATTO-HELLO-CLIENT.BUSINNES.SVC/
