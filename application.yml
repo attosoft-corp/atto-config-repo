@@ -4,12 +4,12 @@ eureka:
     shouldRegisterWithEureka: true
     shouldFetchRegistry: true
     ValidateCertificates: false
-    preferIpAddress: true
-    
   instance:
     port: 8080
+    preferIpAddress: true
+    prefer-ip-address: true
 
-Logging:
+Logging: 
   LogLevel:
     Default: Debug
     System: Information
